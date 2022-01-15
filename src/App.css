@@ -77,7 +77,7 @@ section h2 {
   padding: 15px 0px 0px 15px;
 }
 .my-info {
-  /* background-image: url("../images/snowman.jpg"); */
+  background-image: url("./snowman.jpg");
   height: 400px;
   background-position: 0% 25%;
   background-size: cover;
