@@ -5,10 +5,17 @@ const About = () => {
     return(
         <section>
             <div className="myinfo">
-                <h2>Charles "Charlie" Freeman</h2>
+                <h2>Charles Freeman</h2>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fuga id quae alias sint quia ipsam quod. Quis, minima repudiandae molestiae laudantium voluptates iusto asperiores, cum accusamus deserunt corrupti nobis sequi.
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem totam perferendis quam dolorem, explicabo rerum sed architecto sunt at quasi quo incidunt vel porro eaque cum numquam adipisci ut. Harum.
+                My name is Charlie Freeman.  I have a 7 year old son and live in Smyrna, TN. I have lived in TN 
+                for over 20 years and enjoy the Nashville area. With my personal time I enjoy kayaking, camping, 
+                fishing, shooting, playing cards, board games, and playing baseball and basketball with my son. 
+                In my professional life I am a leader that believes fluidity and teamwork are keys to success. I am very confident 
+                in my ability to problem solve and think through solutions looking for potential problems. I enjoy 
+                and am constantly learning everything I can. This gives me the ability to see the big picture and 
+                make decisions that are sustainable and impactful over the long haul. I especially value my team 
+                members and their own growth in my company. I love coaching and giving my staff ownership of small 
+                responsibilities to increase buy-in.
                 </p>
             </div>
             <img src={snowman} className='backgroundimg' style={{ width: '100%' }} alt='background' />

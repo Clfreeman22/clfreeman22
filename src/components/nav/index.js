@@ -1,38 +1,29 @@
 import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
 
-const Nav = () => {
-    const categories = [
-        { name: 'products', description: "Products that I have worked on.",},
-        { name: 'coding', description: "Languages and libraries I enjoy the most." },
-        { name: 'resume', description: "My Resume" },
-      ];
-      
-      function categorySelected(name) {
-        console.log(`${name} clicked`)
-    }
+const Nav = (props) => {
+
 
     return(
-        <header>
-           <h1>
-               <a herf="/">Charles Lee Freeman III</a>
+        <header className='header'>
+           <h1 className='fullname'>
+               Charles Lee Freeman III
            </h1>
            <nav>
-               <ul className='flex-row'>
-                   <li className='mx-2'>
-                       <a href="#about-me">About Me</a>
-                   </li>
-                   <li>
-                       <span>Contact Me</span>
-                   </li>
-                   {categories.map((category) => (
-                       <li className='mx-1' key={category.name}>
-                           <span onClick={() => {categorySelected(category.name); }} >
-                                {capitalizeFirstLetter(category.name)}
-                            </span>
-                       </li>
-                   ))}
-               </ul>
+                <ul>
+                    <li>
+                        <a href='#about' onClick={() => props.setCurrentPage('About')}>About</a>
+                    </li>
+                    <li>
+                        <a href='#contact' onClick={() => props.setCurrentPage('Contact')}>Contact Me</a>
+                    </li>
+                    <li>
+                        <a href='#portfolio' onClick={() => props.setCurrentPage('Portfolio')}>Portfolio</a>
+                    </li>
+                    <li>
+                        <a href='#resume' onClick={() => props.setCurrentPage('Resume')}>Resume</a>
+                    </li>
+                </ul>
            </nav>  
         </header>
     );
