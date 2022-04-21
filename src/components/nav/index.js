@@ -1,5 +1,4 @@
 import React from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
 
 const Nav = (props) => {
 
@@ -10,7 +9,7 @@ const Nav = (props) => {
                Charles Lee Freeman III
            </h1>
            <nav>
-                <ul>
+                <ul className='flex-row'>
                     <li>
                         <a href='#about' onClick={() => props.setCurrentPage('About')}>About</a>
                     </li>

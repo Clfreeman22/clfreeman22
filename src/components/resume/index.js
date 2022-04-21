@@ -1,12 +1,11 @@
 import React from 'react';
-
+import './style.css';
 const Resume = () => {
 
     return(
         <section>
-                <h1>Charles Freeman</h1>
-            <div className='education'>
-                <h2>Education</h2>
+            <div className='sections'>
+                <h2 className='title'>Education</h2>
                     <div className='highschool'>
                         <div>
                             <h3>Blackman High School</h3>
@@ -15,12 +14,14 @@ const Resume = () => {
                         </div>
                         <div>
                             <h4>Programs and Achivements</h4>
-                                <div>Varsity Baseball</div>
-                                <div>Beta Club</div>
-                                <div>National Honors Society</div>
-                                <div>Robotics Team</div>
-                                <div>Math Team</div>
-                                <div>JROTC</div>
+                            <ul className='list'>
+                                <li>Varsity Baseball</li>
+                                <li>Beta Club</li>
+                                <li>National Honors Society</li>
+                                <li>Robotics Team</li>
+                                <li>Math Team</li>
+                                <li>JROTC</li>
+                            </ul>
                         </div>
                     </div>
                     <div className='college'>
@@ -36,7 +37,7 @@ const Resume = () => {
                             <div>Graduated in February 2022</div>
                             <div>
                                 <h4>Languages Covered</h4>
-                                <ul>
+                                <ul className='list'>
                                     <li>HTML</li>
                                     <li>CSS</li>
                                     <li>JavaScript</li>
@@ -50,8 +51,8 @@ const Resume = () => {
                         </div>
                     </div>
             </div>
-            <div className='workexperience'>
-                <h2>Work Experience</h2>
+            <div className='sections'>
+                <h2 className='title'>Work Experience</h2>
                     <div>
                         <h3>Hickory Falls</h3>
                         <div>2006-2007</div>

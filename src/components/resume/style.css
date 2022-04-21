@@ -1,0 +1,11 @@
+.sections {
+    color:#e5e8e9;
+    padding: 0px 75px 0px 20px;
+}
+.list {
+    list-style-type: circle;
+}
+h3 {
+    font-size: x-large;
+    text-decoration: underline;
+}

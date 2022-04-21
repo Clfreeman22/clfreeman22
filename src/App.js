@@ -7,6 +7,7 @@ import Portfolio from './components/portfolio';
 import Resume from './components/resume';
 import { useState } from 'react';
 
+
 function App() {
 
   const [currentPage, setCurrentPage] = useState("About");
