@@ -47,6 +47,13 @@ const Resume = () => {
                                     <li>MongoDB</li>
                                     <li>React</li>
                                 </ul>
+                                <h4>Continuation Courses</h4>
+                                <ul>
+                                    <li>AWS</li>
+                                    <li>C#</li>
+                                    <li>Java</li>
+                                    <li>Python</li>
+                                </ul>
                             </div>
                         </div>
                     </div>

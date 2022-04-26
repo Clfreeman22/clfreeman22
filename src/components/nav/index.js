@@ -1,4 +1,6 @@
 import React from 'react';
+import pdf from '../../resume.pdf';
+
 
 const Nav = (props) => {
 
@@ -21,6 +23,9 @@ const Nav = (props) => {
                     </li>
                     <li>
                         <a href='#resume' onClick={() => props.setCurrentPage('Resume')}>Resume</a>
+                    </li>
+                    <li className='pdf'>
+                        <a href = {pdf} target = '_blank' rel='noreferrer' className='pdflink'>Download Resume</a>
                     </li>
                 </ul>
            </nav>  

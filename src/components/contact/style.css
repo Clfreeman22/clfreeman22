@@ -1,0 +1,16 @@
+.contactinfo {
+    color: #e5e8e9;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-left: 30px;
+}
+.linkedinlogo {
+    max-width: 150px;
+    height:auto;
+    padding-left: 30px;
+}
+.gitimg {
+    width: 150px;
+    height: 50px;
+    padding-left: 20px;
+}

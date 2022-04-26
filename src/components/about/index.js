@@ -1,36 +1,34 @@
 import React from 'react';
-import snowman from '../../snowman.jpg';
+import profilepic from '../../utils/images/profile-pic.jpg';
 import './style.css';
 
 const About = () => {
     return(
         <section>
             <div className='mybio'>                  
-                <img src={snowman} alt='Professional Profile' className='profilepic'/>               
+                <img src={profilepic} alt='Professional Profile' className='profilepic'/>               
                 <p className='myinfo'>
-                    My name is Charlie Freeman.  I have a 7 year old son and live in Smyrna, TN. I have lived in TN 
-                    for over 20 years and enjoy the Nashville area. With my personal time I enjoy kayaking, camping, 
-                    fishing, shooting, playing cards, board games, and playing baseball and basketball with my son. 
-                    In my professional life I am a leader that believes fluidity and teamwork are keys to success. I am very confident 
-                    in my ability to problem solve and think through solutions looking for potential problems. I enjoy 
-                    and am constantly learning everything I can. This gives me the ability to see the big picture and 
-                    make decisions that are sustainable and impactful over the long haul. I especially value my team 
-                    members and their own growth in my company. I love coaching and giving my staff ownership of small 
-                    responsibilities to increase buy-in.
+                    My name is Charlie Freeman. I live in Smyrna, TN and have a eight year old son named Wyatt. I am looking 
+                    for opportunities in which allow growth and continued development in a career field that better fits my 
+                    personal interests. I enjoy learning new skills and applying them in my daily routine. In my free time I 
+                    love puzzles, board games, social events, and playing sports or being outdoors with my son. In my 
+                    professional life I am committed to achieving a standard that exceeds what is set by my employer. I 
+                    continue to learn and improve on whatever it is I am currently working on. 
                 </p>
             </div>
             <div className='interests'>
                 <h2 className='title'>Professional Ambitions and Interests</h2>
                 <p className='myinfo'>
-                    My name is Charlie Freeman.  I have a 7 year old son and live in Smyrna, TN. I have lived in TN 
-                    for over 20 years and enjoy the Nashville area. With my personal time I enjoy kayaking, camping, 
-                    fishing, shooting, playing cards, board games, and playing baseball and basketball with my son. 
-                    In my professional life I am a leader that believes fluidity and teamwork are keys to success. I am very confident 
-                    in my ability to problem solve and think through solutions looking for potential problems. I enjoy 
-                    and am constantly learning everything I can. This gives me the ability to see the big picture and 
-                    make decisions that are sustainable and impactful over the long haul. I especially value my team 
-                    members and their own growth in my company. I love coaching and giving my staff ownership of small 
-                    responsibilities to increase buy-in.
+                    I have always taken an intrest in computers and engineering. In highschool I took three different elective classes 
+                    in computer hardware and networking. I was also on the Robotics and Math team. I took two different classes 
+                    in college that pertained to coding one was MatLab. The other was in material analysis where we used excell to 
+                    collect and analyze data sets on different materials to determine specific properites. In school I took more 
+                    interest in physics and math. As technology has progressed and coding has become an intergal part of all 
+                    engineering fields so has my interest in this field. I am especially interested in machine learning, data management,
+                    and robotics. The coding I have covered up to this point I enjoy the most is back-end code such as SQL and MongoDB. 
+                    Front-end code has been quicker for me to learn and utilize. As with this site I am currently working on adding a 
+                    back-end server using node and express to create an interactive contact page that will foward emails directly to 
+                    my personal email.   
                 </p>
             </div>
         </section>
