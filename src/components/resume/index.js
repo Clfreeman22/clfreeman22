@@ -33,7 +33,7 @@ const Resume = () => {
                     </div>
                     <div className='professionaltraining'>
                         <div>
-                            <h3>Vanderbuilt Full-Stack Coding Bootcamp</h3>
+                            <h3>Vanderbilt Full-Stack Coding Bootcamp</h3>
                             <div>Graduated in February 2022</div>
                             <div>
                                 <h4>Languages Covered</h4>
