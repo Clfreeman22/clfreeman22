@@ -64,7 +64,7 @@ const Resume = () => {
                         <h3>Hickory Falls</h3>
                         <div>2006-2007</div>
                         <div>Food Expeditor - 2 Years</div>
-                        <p>Bussed tables, trayed and ran food, assisted servers with large tables and other misc. tasks when asked upon.</p>
+                        <p>Bussed tables, trayed and ran food, assisted servers with large tables and other miscellaneous tasks when asked upon.</p>
                     </div>
                     <div>
                         <h3>US Cold Storage</h3>
@@ -86,10 +86,10 @@ const Resume = () => {
                         <div>2017-Current</div>
                         <div>Kitchen Manager - 3 Years, General Manager - 2 Years</div>
                         <p>General Manager, Responsible for all aspects of the restaurant. This includes recruiting, training, and discipline
-                           of all team members and mangers. I tract and manage all budgets and restaurant metrics for guest satisfaction. I 
+                           of all team members and mangers. I track and manage all budgets and restaurant metrics for guest satisfaction. I 
                            oversee ordering, food quality, food safety, and team member safety. I handle all forecasting and scheduling of 
                            staff and managers ensuring proper staffing for day to day operations, catering, and holidays. I handle the profit
-                           loss statement and report this on a weekly basis. On a monthly and quarterly basis I create a full report detailing 
+                           loss statement and report this on a weekly basis. On a monthly and quarterly basis, I create a full report detailing 
                            our successes and short comings with plans to adapt and correct for the next period or quarter. </p>
                     </div>
             </div>
